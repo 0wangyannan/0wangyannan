@@ -1,0 +1,22 @@
+数组：
+定义数组（索引数组）
+var arr =[ 'string', 100, false ]
+conslole.log(arr[ 0 ])
+定义对象（关联数组）
+var obj = {
+    name:'zhang'
+    age:15
+    }
+consloe.log(obj[  name ])
+循环数组：
+作用：
+1.for循环数组可以控制数组的开始和结束
+2.for in循环数组可以获取数组中的所有元素
+for循环可以控制数组的开始和结束
+   for（var i=0;i<arr.length;i++）{
+    console.log(arr[   i  ]);
+}
+   for..in 循环只能获取数组中的所有元素
+    for（var i in arr）{
+    console.log(arr[  i  ]);
+}
